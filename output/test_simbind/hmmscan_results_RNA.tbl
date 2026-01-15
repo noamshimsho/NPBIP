@@ -1,0 +1,25 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+RRM_1                PF00076.28    70 RNCMPT00155          -            414   9.8e-97  307.4   1.8   1   4     8e-25   1.6e-23   72.9   0.0     1    69    13    82    13    83 0.98 RNA recognition motif
+RRM_1                PF00076.28    70 RNCMPT00155          -            414   9.8e-97  307.4   1.8   2   4   1.4e-25   2.7e-24   75.3   0.2     1    68   101   167   101   168 0.98 RNA recognition motif
+RRM_1                PF00076.28    70 RNCMPT00155          -            414   9.8e-97  307.4   1.8   3   4   9.9e-30     2e-28   88.6   0.2     1    69   193   261   193   262 0.98 RNA recognition motif
+RRM_1                PF00076.28    70 RNCMPT00155          -            414   9.8e-97  307.4   1.8   4   4   4.6e-23   9.2e-22   67.2   0.0     1    69   296   363   296   364 0.96 RNA recognition motif
+RRM_1                PF00076.28    70 RNCMPT00153          -            414   3.2e-94  299.4   2.1   1   4   5.4e-23   1.1e-21   67.0   0.0     1    69    13    82    13    83 0.98 RNA recognition motif
+RRM_1                PF00076.28    70 RNCMPT00153          -            414   3.2e-94  299.4   2.1   2   4   1.4e-24   2.8e-23   72.1   0.1     1    69   101   168   101   168 0.98 RNA recognition motif
+RRM_1                PF00076.28    70 RNCMPT00153          -            414   3.2e-94  299.4   2.1   3   4   9.9e-30     2e-28   88.6   0.2     1    69   193   261   193   262 0.98 RNA recognition motif
+RRM_1                PF00076.28    70 RNCMPT00153          -            414   3.2e-94  299.4   2.1   4   4     2e-23     4e-22   68.4   0.0     1    69   296   363   296   364 0.96 RNA recognition motif
+RRM_1                PF00076.28    70 RNCMPT00043          -            414   2.3e-96  306.2   3.6   1   4   1.4e-24   2.8e-23   72.1   0.0     1    70    13    83    13    83 0.98 RNA recognition motif
+RRM_1                PF00076.28    70 RNCMPT00043          -            414   2.3e-96  306.2   3.6   2   4   1.2e-25   2.5e-24   75.5   0.2     1    68   101   167   101   168 0.98 RNA recognition motif
+RRM_1                PF00076.28    70 RNCMPT00043          -            414   2.3e-96  306.2   3.6   3   4   1.1e-28   2.1e-27   85.3   0.4     1    67   193   259   193   261 0.98 RNA recognition motif
+RRM_1                PF00076.28    70 RNCMPT00043          -            414   2.3e-96  306.2   3.6   4   4   2.3e-24   4.6e-23   71.4   0.0     1    69   296   363   296   364 0.98 RNA recognition motif
+#
+# Program:         hmmscan
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SCAN
+# Query file:      ../../data/toy_example/example_test_protein.fasta
+# Target file:     /home/noam/phd/NEW_NPBIP_GIT/src/SimBind/../../models/SimBind/HMM/combined_rna_binding.hmm
+# Option settings: hmmscan --domtblout /home/noam/phd/NEW_NPBIP_GIT/src/SimBind/../../output/test_simbind/hmmscan_results_RNA.tbl -E 0.01 --domE 0.01 /home/noam/phd/NEW_NPBIP_GIT/src/SimBind/../../models/SimBind/HMM/combined_rna_binding.hmm ../../data/toy_example/example_test_protein.fasta 
+# Current dir:     /home/noam/phd/NEW_NPBIP_GIT/src/SimBind
+# Date:            Wed Jan 14 19:23:30 2026
+# [ok]
